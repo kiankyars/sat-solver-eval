@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sat-solver-eval"
+version = "0.1.0"
+description = "Certificate-checked SAT solver improvement experiment"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+sat-eval = "sat_eval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sat_eval*"]

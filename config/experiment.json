@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "baseline_ref": "baseline-v1",
+  "editable_paths": ["solver/kissat/src/", "solver/satsuma/src/"],
+  "editable_extensions": [".c", ".h", ".cpp", ".hpp", ".cc", ".hh", ".inc"],
+  "profiles": {
+    "smoke": {"solver_seconds": 10, "checker_seconds": 20, "memory_mib": 1024, "file_size_mib": 64, "repeats": 1},
+    "quick": {"solver_seconds": 30, "checker_seconds": 60, "memory_mib": 4096, "file_size_mib": 256, "repeats": 1},
+    "development": {"solver_seconds": 300, "checker_seconds": 600, "memory_mib": 4096, "file_size_mib": 1024, "repeats": 3},
+    "official": {"solver_seconds": 5000, "checker_seconds": 10000, "memory_mib": 32768, "file_size_mib": 4096, "repeats": 3}
+  },
+  "cpu_count": 1,
+  "cpu_index": 0,
+  "pids_limit": 64,
+  "validation_feedback_rounds": 3,
+  "target_split_sizes": {"development": 300, "validation": 100, "final_public": 150, "final_fresh": 150},
+  "notes": [
+    "Quick and development are budget-reduced engineering previews, not official results.",
+    "File size cap applies separately to proof and output files; candidate scratch uses bounded tmpfs.",
+    "Official measurements require a separate trusted Linux host and external held-out data.",
+    "No paid compute or full official evaluation is launched by setup."
+  ]
+}

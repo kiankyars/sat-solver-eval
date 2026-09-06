@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+/build/
+/runs/
+/submissions/
+/data/corpus/
+/data/smoke/
+/data/cache/
+/data/locked/
+*.o
+*.a

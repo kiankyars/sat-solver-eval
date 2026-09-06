@@ -1,0 +1,10 @@
+*
+!Dockerfile
+!Dockerfile.toolchain
+!solver/
+!solver/**
+!vendor/
+!vendor/**
+!scripts/
+!scripts/build_solver.sh
+!scripts/run_solver.sh

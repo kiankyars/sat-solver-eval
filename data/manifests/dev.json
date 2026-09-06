@@ -1,0 +1,921 @@
+{
+  "acquisition_catalog_sha256": "44591745741e1156966f214b7278b143bb2ae79210f9202921a32c04042a4b36",
+  "instances": [
+    {
+      "bytes": 49901852,
+      "expected_result": "sat",
+      "family": "independent-set-reconfiguration",
+      "id": "gbd-c033577c6f5f9a1545537518af964305",
+      "lineage": "gbd-family:independent-set-reconfiguration",
+      "path": "development/c033577c6f5f9a1545537518af964305.cnf",
+      "sha256": "871b625d0509c985c821c0ea6f703729bcc51c9ddf9cbc52b26ea1c7be25fb8f",
+      "source": {
+        "archive_bytes": 3258056,
+        "archive_sha256": "77e306f55a3655931a6c8a391d022fa897ba1b7ad5a3aa8d1dbd35bc662e3719",
+        "author": "froleyks",
+        "filenames": [
+          "reconf10_73_queen13_2.cnf.xz"
+        ],
+        "gbd_family": "independent-set-reconfiguration",
+        "gbd_hash": "c033577c6f5f9a1545537518af964305",
+        "isohash": "0622422811fae182963110ffd89884bf",
+        "isohash2": "420dbc2feb35c607",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=c033577c6f5f9a1545537518af964305",
+        "proceedings": "http://hdl.handle.net/10138/359079",
+        "tracks": [
+          "main_2025",
+          "submissions_2022"
+        ],
+        "url": "https://benchmark-database.de/file/c033577c6f5f9a1545537518af964305"
+      }
+    },
+    {
+      "bytes": 2859596,
+      "expected_result": "unsat",
+      "family": "maxsat-optimum",
+      "id": "gbd-14ea5857d75ae2b235a3ba97373ea732",
+      "lineage": "gbd-family:maxsat-optimum",
+      "path": "development/14ea5857d75ae2b235a3ba97373ea732.cnf",
+      "sha256": "34978ec2c8478aa1e2c1e95b1ad65d6e33f7f7429e4e4a6babc390829647d2bc",
+      "source": {
+        "archive_bytes": 651068,
+        "archive_sha256": "4337c5292e638926769942fd116772841850c0d4d878f1397613fcd16ebae5b7",
+        "author": "cherif",
+        "filenames": [
+          "af-synthesis_stb_50_40_9_unsat.cnf.xz"
+        ],
+        "gbd_family": "maxsat-optimum",
+        "gbd_hash": "14ea5857d75ae2b235a3ba97373ea732",
+        "isohash": "7240e5ae096f45f36651284eb14d977c",
+        "isohash2": "6f6eb2263fa8790a",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=14ea5857d75ae2b235a3ba97373ea732",
+        "proceedings": "http://hdl.handle.net/10138/359079",
+        "tracks": [
+          "main_2024",
+          "submissions_2022"
+        ],
+        "url": "https://benchmark-database.de/file/14ea5857d75ae2b235a3ba97373ea732"
+      }
+    },
+    {
+      "bytes": 309189,
+      "expected_result": "sat",
+      "family": "purdom-instances",
+      "id": "gbd-d07b717548b8c9c1477dd7f4a650bdf7",
+      "lineage": "gbd-family:purdom-instances",
+      "path": "development/d07b717548b8c9c1477dd7f4a650bdf7.cnf",
+      "sha256": "831768bce9c38abb4026f9da09a0a5e4068e7ddf87e9c2ef0fb0a45d38f868b9",
+      "source": {
+        "archive_bytes": 108692,
+        "archive_sha256": "c591630ca0a4526ee33e6f783254eb16181aa322e069bc9fd702ddc2895dc80e",
+        "author": "purdom",
+        "filenames": [
+          "544707209399nc.shuffled-as.sat03-1670.cnf.xz"
+        ],
+        "gbd_family": "purdom-instances",
+        "gbd_hash": "d07b717548b8c9c1477dd7f4a650bdf7",
+        "isohash": "2a1d2a435ead67ca32d373ddb2216ab7",
+        "isohash2": "a3615c8962c6943c",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=d07b717548b8c9c1477dd7f4a650bdf7",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "handmade_2003",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/d07b717548b8c9c1477dd7f4a650bdf7"
+      }
+    },
+    {
+      "bytes": 3263,
+      "expected_result": "unsat",
+      "family": "sgen",
+      "id": "gbd-2b60f9be1439f63b7f174c6b8ca7fedf",
+      "lineage": "gbd-family:sgen",
+      "path": "development/2b60f9be1439f63b7f174c6b8ca7fedf.cnf",
+      "sha256": "57697c3e1498ba403c01b4b53205fadb9d490449b6ae27109e6ce99b7339f2aa",
+      "source": {
+        "archive_bytes": 760,
+        "archive_sha256": "aac2fbdeb8dab282fc10cb396ef9889360f7a6b3d4b07d02d53104e4c5061fc8",
+        "author": "spence",
+        "filenames": [
+          "sgen1-unsat-121-100.cnf.xz"
+        ],
+        "gbd_family": "sgen",
+        "gbd_hash": "2b60f9be1439f63b7f174c6b8ca7fedf",
+        "isohash": "bde4f2c5cc6fab8e115f9099e22aaa66",
+        "isohash2": "b74e77310b9bc454",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=2b60f9be1439f63b7f174c6b8ca7fedf",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "crafted_2009",
+          "main_2024"
+        ],
+        "url": "https://benchmark-database.de/file/2b60f9be1439f63b7f174c6b8ca7fedf"
+      }
+    },
+    {
+      "bytes": 60948290,
+      "expected_result": "unsat",
+      "family": "equivalence-chain-principle",
+      "id": "gbd-63732c330adb8de8dd47ce1693b86d0e",
+      "lineage": "gbd-family:equivalence-chain-principle",
+      "path": "development/63732c330adb8de8dd47ce1693b86d0e.cnf",
+      "sha256": "7a8630a6d7cfb83916914e84fa2eeabf799aac981518b7e6aa4844e44ee34ffb",
+      "source": {
+        "archive_bytes": 3097828,
+        "archive_sha256": "245624c6dbe5da194c8f88c0e1d4d733c37add8579a7fbfd67de2b143ddb4b34",
+        "author": "sambuss",
+        "filenames": [
+          "FmlaEquivChain_4_8_8.sanitized.cnf.xz"
+        ],
+        "gbd_family": "equivalence-chain-principle",
+        "gbd_hash": "63732c330adb8de8dd47ce1693b86d0e",
+        "isohash": "b73fe0cccdcfb7f698ed9cef6daa7a9d",
+        "isohash2": "b56df49b63483b5e",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=63732c330adb8de8dd47ce1693b86d0e",
+        "proceedings": "http://hdl.handle.net/10138/584822",
+        "tracks": [
+          "main_2024",
+          "submissions_2024"
+        ],
+        "url": "https://benchmark-database.de/file/63732c330adb8de8dd47ce1693b86d0e"
+      }
+    },
+    {
+      "bytes": 5694299,
+      "expected_result": "unsat",
+      "family": "hardware-verification",
+      "id": "gbd-d672bdbca3b1fb26d585e78add79537e",
+      "lineage": "gbd-family:hardware-verification",
+      "path": "development/d672bdbca3b1fb26d585e78add79537e.cnf",
+      "sha256": "7b715a14a0044105a7593f2eb8fafe039ac7888ae48993dc8303cd6f546d84e3",
+      "source": {
+        "archive_bytes": 376084,
+        "archive_sha256": "050f7da1ffe3ca3d171bb335f9ea8782c8631b73a5a4b2677a86f61a11a469b2",
+        "author": "velev",
+        "filenames": [
+          "velev-pipe-o-uns-1.1-6.cnf.xz"
+        ],
+        "gbd_family": "hardware-verification",
+        "gbd_hash": "d672bdbca3b1fb26d585e78add79537e",
+        "isohash": "025cfbc19ed0b52bb29b2e7f455de100",
+        "isohash2": "5354e558b90d9291",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=d672bdbca3b1fb26d585e78add79537e",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "application_2009",
+          "application_2011",
+          "application_2012",
+          "main_2006",
+          "main_2025",
+          "portfolio_2012"
+        ],
+        "url": "https://benchmark-database.de/file/d672bdbca3b1fb26d585e78add79537e"
+      }
+    },
+    {
+      "bytes": 147994146,
+      "expected_result": "unsat",
+      "family": "baseball-lineup",
+      "id": "gbd-533017e0f42d8246c7ae140313a84161",
+      "lineage": "gbd-family:baseball-lineup",
+      "path": "development/533017e0f42d8246c7ae140313a84161.cnf",
+      "sha256": "cb5c4bda9476b912428cabb9c3105b18b0c29b66ec89d2cf1df956e3c580298d",
+      "source": {
+        "archive_bytes": 6332640,
+        "archive_sha256": "8b05478bea4107556b6f97b83c381b4831f7c9171a304e9a89f0ee80395eadd4",
+        "author": "hickey",
+        "filenames": [
+          "baseballcover12with25_and5positions.cnf.xz"
+        ],
+        "gbd_family": "baseball-lineup",
+        "gbd_hash": "533017e0f42d8246c7ae140313a84161",
+        "isohash": "1dcf2f5f4da2c317ea4c61b87975b58d",
+        "isohash2": "66a0f9ee7a8f7153",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=533017e0f42d8246c7ae140313a84161",
+        "proceedings": "http://hdl.handle.net/10138/318754",
+        "tracks": [
+          "anni_2022",
+          "main_2020",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/533017e0f42d8246c7ae140313a84161"
+      }
+    },
+    {
+      "bytes": 162107,
+      "expected_result": "sat",
+      "family": "minimal-disagreement-parity",
+      "id": "gbd-0c9bcbc815cf0f109b7aeef3fbffc42d",
+      "lineage": "gbd-family:minimum-disagreement-parity",
+      "path": "development/0c9bcbc815cf0f109b7aeef3fbffc42d.cnf",
+      "sha256": "f38752653caf4ba545a1bbb07f8e9ccbc4a99091377ab6762ccfe10e67bc9f4b",
+      "source": {
+        "archive_bytes": 57468,
+        "archive_sha256": "d9ba851e03acd5a3894d1a01ce8fab070a7559404a47159b352ee7fc57173234",
+        "author": "simon",
+        "filenames": [
+          "par32-2.shuffled-as.sat03-1534.cnf.xz"
+        ],
+        "gbd_family": "minimal-disagreement-parity",
+        "gbd_hash": "0c9bcbc815cf0f109b7aeef3fbffc42d",
+        "isohash": "a69f6a064a881e532cc88bd71b0c3aec",
+        "isohash2": "3d46424fbfae3f9a",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=0c9bcbc815cf0f109b7aeef3fbffc42d",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "handmade_2003",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/0c9bcbc815cf0f109b7aeef3fbffc42d"
+      }
+    },
+    {
+      "bytes": 406992,
+      "expected_result": "sat",
+      "family": "multiplier-circuits",
+      "id": "gbd-362d153b4162127bc42796180110f483",
+      "lineage": "gbd-family:multiplier-circuits",
+      "path": "development/362d153b4162127bc42796180110f483.cnf",
+      "sha256": "907c98ebe3331af203f0f9f67529e6933255cd1b0550ecc7caf9d4cdc35514a0",
+      "source": {
+        "archive_bytes": 48056,
+        "archive_sha256": "a83dd83ae2e5885c4eedb0c4380e5d8c35efefa9e46c5be55e9525183464a687",
+        "author": "shunyang",
+        "filenames": [
+          "Carry_Bits_Fast_19.cnf.cnf.xz"
+        ],
+        "gbd_family": "multiplier-circuits",
+        "gbd_hash": "362d153b4162127bc42796180110f483",
+        "isohash": "a795e60f90956f3e335ae5c9c1f025f9",
+        "isohash2": "5555b259b197e7a7",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=362d153b4162127bc42796180110f483",
+        "proceedings": "http://hdl.handle.net/10138/359079",
+        "tracks": [
+          "main_2025",
+          "submissions_2022"
+        ],
+        "url": "https://benchmark-database.de/file/362d153b4162127bc42796180110f483"
+      }
+    },
+    {
+      "bytes": 45932,
+      "expected_result": "unsat",
+      "family": "grandtour-puzzle",
+      "id": "gbd-3f67f6767764855e516e5394be1145e5",
+      "lineage": "gbd-family:grandtour-puzzle",
+      "path": "development/3f67f6767764855e516e5394be1145e5.cnf",
+      "sha256": "21137d85fa8ae64830504ba3bd15ddc5dbffd806d55c225a86547d0a5d09e968",
+      "source": {
+        "archive_bytes": 12560,
+        "archive_sha256": "cae3e3d680e0d57cfa7ec9df9fc3cb202a4043b9f77f30b1de730829034d9af4",
+        "author": "chowdhury",
+        "filenames": [
+          "gto_p60c238-sc2018.cnf.xz"
+        ],
+        "gbd_family": "grandtour-puzzle",
+        "gbd_hash": "3f67f6767764855e516e5394be1145e5",
+        "isohash": "f14d1307b115e8e17334d6601680ff17",
+        "isohash2": "9ff385c211450369",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=3f67f6767764855e516e5394be1145e5",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "main_2019",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/3f67f6767764855e516e5394be1145e5"
+      }
+    },
+    {
+      "bytes": 698759,
+      "expected_result": "unknown",
+      "family": "scheduling",
+      "id": "gbd-6f6a20cd654701b5e7fe9e9e0e5e7787",
+      "lineage": "gbd-family:scheduling",
+      "path": "development/6f6a20cd654701b5e7fe9e9e0e5e7787.cnf",
+      "sha256": "fef5e2fab11e4167376711abd0a19f1ceeb8c093c3bed7d91a022f0f2a6d8e68",
+      "source": {
+        "archive_bytes": 44036,
+        "archive_sha256": "42e29a2523a89bc1304e5f9158ce1bcd0961565bb1016a3abd2281be1a97a670",
+        "author": "reeves",
+        "filenames": [
+          "RoundRobin_n18_d15.cnf.xz"
+        ],
+        "gbd_family": "scheduling",
+        "gbd_hash": "6f6a20cd654701b5e7fe9e9e0e5e7787",
+        "isohash": "db4ff9ca96cbee0b1f6ea7fb2fbca035",
+        "isohash2": "bbeffc1060c94d1e",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=6f6a20cd654701b5e7fe9e9e0e5e7787",
+        "proceedings": "empty",
+        "tracks": [
+          "main_2025",
+          "submissions_2025"
+        ],
+        "url": "https://benchmark-database.de/file/6f6a20cd654701b5e7fe9e9e0e5e7787"
+      }
+    },
+    {
+      "bytes": 19730958,
+      "expected_result": "unsat",
+      "family": "grs-fp-comm",
+      "id": "gbd-9777418f75e1dfbd7d34e9b0ba4bf0b5",
+      "lineage": "gbd-family:grs-fp-comm",
+      "path": "development/9777418f75e1dfbd7d34e9b0ba4bf0b5.cnf",
+      "sha256": "26068a551866a1b722e24f8d3d09ee3120fcdc2de7894aee0794b687a4f434a4",
+      "source": {
+        "archive_bytes": 1799508,
+        "archive_sha256": "13eacd6f6e4f93e6982cdc9dad0633aec8f8e546196499f11e574ccae9c0c2e0",
+        "author": "fleury",
+        "filenames": [
+          "grs-64-128.cnf.xz"
+        ],
+        "gbd_family": "grs-fp-comm",
+        "gbd_hash": "9777418f75e1dfbd7d34e9b0ba4bf0b5",
+        "isohash": "a61d5c33320b5fa351e19dbf344d8197",
+        "isohash2": "5e50970556aca7b6",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=9777418f75e1dfbd7d34e9b0ba4bf0b5",
+        "proceedings": "http://hdl.handle.net/10138/563824",
+        "tracks": [
+          "main_2024",
+          "submissions_2023"
+        ],
+        "url": "https://benchmark-database.de/file/9777418f75e1dfbd7d34e9b0ba4bf0b5"
+      }
+    },
+    {
+      "bytes": 442762,
+      "expected_result": "sat",
+      "family": "edge-matching",
+      "id": "gbd-64cb3656e0c03b3db7033ee9b987f280",
+      "lineage": "gbd-family:edge-matching",
+      "path": "development/64cb3656e0c03b3db7033ee9b987f280.cnf",
+      "sha256": "551206838a2538751ad9f2ee772daafd68ba583a24f80a91bc811c569f760e00",
+      "source": {
+        "archive_bytes": 52008,
+        "archive_sha256": "ec2125cd0abeedb9ce41ec5bb554e3bfb88a7303e0cafbb92324b0bef30b4b24",
+        "author": "heule",
+        "filenames": [
+          "em_8_4_5_cmp.cnf.xz"
+        ],
+        "gbd_family": "edge-matching",
+        "gbd_hash": "64cb3656e0c03b3db7033ee9b987f280",
+        "isohash": "047e3f071015aaf3e2e32921d31ced1b",
+        "isohash2": "7004e8f0e55c1d21",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=64cb3656e0c03b3db7033ee9b987f280",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "crafted_2009",
+          "crafted_2012",
+          "crafted_2013",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/64cb3656e0c03b3db7033ee9b987f280"
+      }
+    },
+    {
+      "bytes": 385696,
+      "expected_result": "unsat",
+      "family": "set-covering",
+      "id": "gbd-0ccb0f855352783a972be45188bf3164",
+      "lineage": "gbd-family:set-covering",
+      "path": "development/0ccb0f855352783a972be45188bf3164.cnf",
+      "sha256": "839fc813f15d03948ff10070290463d370c21f0813ab2f48edbff19b469460ec",
+      "source": {
+        "archive_bytes": 97928,
+        "archive_sha256": "3149dfc1af82ac224050808cfa7b6207fa9a05122ff248ac37aa589c7c20290e",
+        "author": "zheng",
+        "filenames": [
+          "SCPC-500-12.cnf.xz"
+        ],
+        "gbd_family": "set-covering",
+        "gbd_hash": "0ccb0f855352783a972be45188bf3164",
+        "isohash": "9a95fe18fef6e6e9ebe3263c7ca7e20b",
+        "isohash2": "6295d7e853c4ff29",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=0ccb0f855352783a972be45188bf3164",
+        "proceedings": "http://hdl.handle.net/10138/359079",
+        "tracks": [
+          "main_2025",
+          "submissions_2022"
+        ],
+        "url": "https://benchmark-database.de/file/0ccb0f855352783a972be45188bf3164"
+      }
+    },
+    {
+      "bytes": 133428,
+      "expected_result": "unsat",
+      "family": "hidoku",
+      "id": "gbd-6147e666b75f603a4c4490d21ab654cd",
+      "lineage": "gbd-family:hidoku",
+      "path": "development/6147e666b75f603a4c4490d21ab654cd.cnf",
+      "sha256": "48a53fcd6429e09965b58a71e609440c140682bc233226179bbefea4afab09b7",
+      "source": {
+        "archive_bytes": 17636,
+        "archive_sha256": "8eabe9bcdb65590fb763eca5d712e6d34de230a0e25a5c0df403ccd1e8e3d35f",
+        "author": "manthey",
+        "filenames": [
+          "hid-uns-enc-6-1-0-0-0-0-14492.cnf.xz"
+        ],
+        "gbd_family": "hidoku",
+        "gbd_hash": "6147e666b75f603a4c4490d21ab654cd",
+        "isohash": "a9cb3be1d849afeec25439cb27f88a9e",
+        "isohash2": "c48ce43a8c6bef20",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=6147e666b75f603a4c4490d21ab654cd",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "crafted_2013",
+          "main_2020",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/6147e666b75f603a4c4490d21ab654cd"
+      }
+    },
+    {
+      "bytes": 520983,
+      "expected_result": "sat",
+      "family": "random-csp",
+      "id": "gbd-9b998be0c639d06988c4902eb125c0b7",
+      "lineage": "gbd-family:random-csp",
+      "path": "development/9b998be0c639d06988c4902eb125c0b7.cnf",
+      "sha256": "a864d5f3f6e6a0a41d64f20810a59bdd15c5bc2539e4ea5370015a158d77fa25",
+      "source": {
+        "archive_bytes": 52876,
+        "archive_sha256": "11f968a212938cdb46ce977a05079d20611f32d4af5fae1f8ab5863ddbe1d80a",
+        "author": "zhou",
+        "filenames": [
+          "frb35-17-5_ext.cnf.xz"
+        ],
+        "gbd_family": "random-csp",
+        "gbd_hash": "9b998be0c639d06988c4902eb125c0b7",
+        "isohash": "ec72a9d42f39cfd49e875b6207b2e0e3",
+        "isohash2": "8c012c00a1735c28",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=9b998be0c639d06988c4902eb125c0b7",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "main_2018",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/9b998be0c639d06988c4902eb125c0b7"
+      }
+    },
+    {
+      "bytes": 154497,
+      "expected_result": "sat",
+      "family": "random-modularity",
+      "id": "gbd-59fc779feee4390b57502814d424e0d6",
+      "lineage": "gbd-family:random-modularity",
+      "path": "development/59fc779feee4390b57502814d424e0d6.cnf",
+      "sha256": "39e660f8aea0bfb9d6ff27104f6a0b84854bb9fc77436fff61bcf75a52f9b478",
+      "source": {
+        "archive_bytes": 53588,
+        "archive_sha256": "d22ee74f287e515c78445479e9afb99a69a5fdef60479fb56bcbce281846feaa",
+        "author": "giraldez",
+        "filenames": [
+          "jgiraldezlevy.2200.9086.08.40.149-sr2015.cnf.xz"
+        ],
+        "gbd_family": "random-modularity",
+        "gbd_hash": "59fc779feee4390b57502814d424e0d6",
+        "isohash": "58ae91232281cd528a92ac63b1bb3828",
+        "isohash2": "b96b2005bb929303",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=59fc779feee4390b57502814d424e0d6",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "main_2019",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/59fc779feee4390b57502814d424e0d6"
+      }
+    },
+    {
+      "bytes": 73563,
+      "expected_result": "sat",
+      "family": "battleship",
+      "id": "gbd-ed6d842f96d10f3400bce251f9e95bfb",
+      "lineage": "gbd-family:battleship",
+      "path": "development/ed6d842f96d10f3400bce251f9e95bfb.cnf",
+      "sha256": "9d586fde48ebcc533f867c06569f008a9b3f5b71dca6a3c9e18db48e037a0b6f",
+      "source": {
+        "archive_bytes": 7808,
+        "archive_sha256": "8e0afa2987ecc851e0d2930884aaa3079ec4371c1c53c76e6b7a295afa500b74",
+        "author": "skvortsov",
+        "filenames": [
+          "battleship-16-31-sat.cnf.xz"
+        ],
+        "gbd_family": "battleship",
+        "gbd_hash": "ed6d842f96d10f3400bce251f9e95bfb",
+        "isohash": "40f5c029d5932b850197073739f73985",
+        "isohash2": "40967c46e239b604",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=ed6d842f96d10f3400bce251f9e95bfb",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "crafted_2011",
+          "crafted_2012",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/ed6d842f96d10f3400bce251f9e95bfb"
+      }
+    },
+    {
+      "bytes": 95108,
+      "expected_result": "unsat",
+      "family": "st-connectivity-principle",
+      "id": "gbd-b3f53d4c67b234d27e21f5e56bfd39e8",
+      "lineage": "gbd-family:st-connectivity-principle",
+      "path": "development/b3f53d4c67b234d27e21f5e56bfd39e8.cnf",
+      "sha256": "662388659da4d5d1c587a78550030eef0d6d645715958073dbe39cb19a7e7c1c",
+      "source": {
+        "archive_bytes": 14148,
+        "archive_sha256": "3fbe27e9bdc1a18c9a49add886a978b33f1abeb06db9c16d5fd556b49da569ed",
+        "author": "sambuss",
+        "filenames": [
+          "StConn_8_32.sanitized.cnf.xz"
+        ],
+        "gbd_family": "st-connectivity-principle",
+        "gbd_hash": "b3f53d4c67b234d27e21f5e56bfd39e8",
+        "isohash": "997991f52cc2c94ce1543bbcd6fe0d04",
+        "isohash2": "93dfa75cb5310fe4",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=b3f53d4c67b234d27e21f5e56bfd39e8",
+        "proceedings": "http://hdl.handle.net/10138/584822",
+        "tracks": [
+          "main_2024",
+          "submissions_2024"
+        ],
+        "url": "https://benchmark-database.de/file/b3f53d4c67b234d27e21f5e56bfd39e8"
+      }
+    },
+    {
+      "bytes": 12379914,
+      "expected_result": "sat",
+      "family": "station-repacking",
+      "id": "gbd-e2d2b011b0805782df6adba648db92e8",
+      "lineage": "gbd-family:station-repacking",
+      "path": "development/e2d2b011b0805782df6adba648db92e8.cnf",
+      "sha256": "8e04a900d6bb3f46311ffad01d497d0ee45f7dbf6b0f0e48f95851ea11190f1e",
+      "source": {
+        "archive_bytes": 901488,
+        "archive_sha256": "d5f21300bd7feacab1408ba082d592960d3eda2e2b3beb1b06f9fec58ff24946",
+        "author": "newman",
+        "filenames": [
+          "59-129706.cnf.xz"
+        ],
+        "gbd_family": "station-repacking",
+        "gbd_hash": "e2d2b011b0805782df6adba648db92e8",
+        "isohash": "09d939f53df8bf884727a318d736295f",
+        "isohash2": "e0450e66f5f306de",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=e2d2b011b0805782df6adba648db92e8",
+        "proceedings": "https://satcompetition.github.io/2020/downloads/station-repacking.pdf",
+        "tracks": [
+          "anni_2022",
+          "main_2020",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/e2d2b011b0805782df6adba648db92e8"
+      }
+    },
+    {
+      "bytes": 348545,
+      "expected_result": "sat",
+      "family": "heule-folkman",
+      "id": "gbd-72c0d81e16d91bcaed808efcde2e5069",
+      "lineage": "gbd-family:heule-folkman",
+      "path": "development/72c0d81e16d91bcaed808efcde2e5069.cnf",
+      "sha256": "ae0b99d37d69510dfae2a276d128c1cbd3fff53306a4f3fae73237e163d5877a",
+      "source": {
+        "archive_bytes": 66980,
+        "archive_sha256": "76da026f7782e202cb5f7b8b53ba225f93ed4036fb1ea023a6c32df73b30e581",
+        "author": "heule",
+        "filenames": [
+          "Folkman-175-1251868.sanitized.cnf.xz"
+        ],
+        "gbd_family": "heule-folkman",
+        "gbd_hash": "72c0d81e16d91bcaed808efcde2e5069",
+        "isohash": "8a40ff0aa201908fdc971cae3da07227",
+        "isohash2": "aae3ec4d57bc5f96",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=72c0d81e16d91bcaed808efcde2e5069",
+        "proceedings": "http://hdl.handle.net/10138/584822",
+        "tracks": [
+          "main_2024",
+          "submissions_2024"
+        ],
+        "url": "https://benchmark-database.de/file/72c0d81e16d91bcaed808efcde2e5069"
+      }
+    },
+    {
+      "bytes": 120292,
+      "expected_result": "sat",
+      "family": "minimum-disagreement-parity",
+      "id": "gbd-ab3438b504b296fcee78ec9e71969863",
+      "lineage": "gbd-family:minimum-disagreement-parity",
+      "path": "development/ab3438b504b296fcee78ec9e71969863.cnf",
+      "sha256": "bea05a068fac0c80b91bb09152f6dcdc3f750d359e76e7058ef54a6622e98542",
+      "source": {
+        "archive_bytes": 15016,
+        "archive_sha256": "68722762f3d02f81ad2f1290bc304a6f5e22ecd5e9ff51b8b036b4fad21c0269",
+        "author": "bryant",
+        "filenames": [
+          "mdp-36-14-sat.cnf.xz"
+        ],
+        "gbd_family": "minimum-disagreement-parity",
+        "gbd_hash": "ab3438b504b296fcee78ec9e71969863",
+        "isohash": "d0f65dffe1fb29c8119690a7e1d45476",
+        "isohash2": "93773c98a72f41a7",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=ab3438b504b296fcee78ec9e71969863",
+        "proceedings": "http://hdl.handle.net/10138/359079",
+        "tracks": [
+          "main_2024",
+          "submissions_2022"
+        ],
+        "url": "https://benchmark-database.de/file/ab3438b504b296fcee78ec9e71969863"
+      }
+    },
+    {
+      "bytes": 2547977,
+      "expected_result": "sat",
+      "family": "maximum-constraint-partition",
+      "id": "gbd-53c21f3e78f060883026b5a12ba691d8",
+      "lineage": "gbd-family:maximum-constraint-partition",
+      "path": "development/53c21f3e78f060883026b5a12ba691d8.cnf",
+      "sha256": "cb0ebf34b5a5e971d8469fb01e2f816dc92f74958437df45ced506221fd72fb3",
+      "source": {
+        "archive_bytes": 243000,
+        "archive_sha256": "9cb0925feb9f8d9f4e34be206429131db7c50161353e9b733ff0a1d305625337",
+        "author": "riveros",
+        "filenames": [
+          "maximum_constrained_partition_14_bits_n200.cnf.xz"
+        ],
+        "gbd_family": "maximum-constraint-partition",
+        "gbd_hash": "53c21f3e78f060883026b5a12ba691d8",
+        "isohash": "2bd5ea807bd218d714d8a8161158a5fd",
+        "isohash2": "bd5319e40ee94088",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=53c21f3e78f060883026b5a12ba691d8",
+        "proceedings": "http://hdl.handle.net/10138/333647",
+        "tracks": [
+          "anni_2022",
+          "main_2021",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/53c21f3e78f060883026b5a12ba691d8"
+      }
+    },
+    {
+      "bytes": 167579,
+      "expected_result": "unsat",
+      "family": "termination-analysis",
+      "id": "gbd-ad9eb96bac59319fc2f7daffd1f961f8",
+      "lineage": "gbd-family:termination-analysis",
+      "path": "development/ad9eb96bac59319fc2f7daffd1f961f8.cnf",
+      "sha256": "bb1517606a9ef0b80fe2c4e9c69281fe32b68cf3f5fd43dcdef2d3346fe4cbba",
+      "source": {
+        "archive_bytes": 31320,
+        "archive_sha256": "7a8ddb3bb2216e436bad6ba6e452e011d06b12468df8281aa3ea52b4b71b7477",
+        "author": "fuhs",
+        "filenames": [
+          "AProVE07-21.cnf.xz"
+        ],
+        "gbd_family": "termination-analysis",
+        "gbd_hash": "ad9eb96bac59319fc2f7daffd1f961f8",
+        "isohash": "51e3726afecfb8ba5fa32fd2fecbe3ac",
+        "isohash2": "46d5456c09452a74",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=ad9eb96bac59319fc2f7daffd1f961f8",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "application_2011",
+          "application_2012",
+          "industrial_2007",
+          "main_2025",
+          "portfolio_2012"
+        ],
+        "url": "https://benchmark-database.de/file/ad9eb96bac59319fc2f7daffd1f961f8"
+      }
+    },
+    {
+      "bytes": 208052,
+      "expected_result": "sat",
+      "family": "generic-csp",
+      "id": "gbd-36ba44cf208034e2c8e84a1971b9bfd4",
+      "lineage": "gbd-family:generic-csp",
+      "path": "development/36ba44cf208034e2c8e84a1971b9bfd4.cnf",
+      "sha256": "fb9b1c87561d5abec31c478ecbd58eab2085d85fb01e2008267620ca7f49dff9",
+      "source": {
+        "archive_bytes": 69424,
+        "archive_sha256": "e91daf24b658156203e9afdd7d173b29b9ae1416a1e0038a11eef589686133f6",
+        "author": "connamacher",
+        "filenames": [
+          "connm-ue-csp-sat-n1200-d-0.02-s405595518.shuffled-as.sat05-531.cnf.xz"
+        ],
+        "gbd_family": "generic-csp",
+        "gbd_hash": "36ba44cf208034e2c8e84a1971b9bfd4",
+        "isohash": "e7feb9213eac0a41d075cfc5cd032ae8",
+        "isohash2": "16828ff0a881c097",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=36ba44cf208034e2c8e84a1971b9bfd4",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "crafted_2005",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/36ba44cf208034e2c8e84a1971b9bfd4"
+      }
+    },
+    {
+      "bytes": 12429871,
+      "expected_result": "unsat",
+      "family": "diagnosis",
+      "id": "gbd-9a839badecb20dcf505ec79eedd3753a",
+      "lineage": "gbd-family:diagnosis",
+      "path": "development/9a839badecb20dcf505ec79eedd3753a.cnf",
+      "sha256": "64e6eb3f2cb7223fc90cdaf366ac0688e6a955b960b777eb921450aa864c6a2d",
+      "source": {
+        "archive_bytes": 1201468,
+        "archive_sha256": "4f9bcb92bfdf1db6b2a0825707b2f3a12a2ff97fcf459411ea94129407f88d7d",
+        "author": "anbulagan",
+        "filenames": [
+          "anbul-dated-5-15-u.cnf.xz"
+        ],
+        "gbd_family": "diagnosis",
+        "gbd_hash": "9a839badecb20dcf505ec79eedd3753a",
+        "isohash": "8d7b608e8050383c95454038169ef87a",
+        "isohash2": "042ff42a329ad266",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=9a839badecb20dcf505ec79eedd3753a",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "application_2012",
+          "main_2008",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/9a839badecb20dcf505ec79eedd3753a"
+      }
+    },
+    {
+      "bytes": 19119523,
+      "expected_result": "unknown",
+      "family": "school-timetabling",
+      "id": "gbd-77e655b23c0a50d911c0384ef8fe266d",
+      "lineage": "gbd-family:school-timetabling",
+      "path": "development/77e655b23c0a50d911c0384ef8fe266d.cnf",
+      "sha256": "342d106e91d59e80b4ee4f69fabfa4d393adfeb5122e57c5e9ea675adf9a033b",
+      "source": {
+        "archive_bytes": 1514152,
+        "archive_sha256": "9bd7ebb6a39dcfd8ed5a5649d6a3202eb9c1cdd97e36ad3e60a54d2fd5f69dbb",
+        "author": "tchinda",
+        "filenames": [
+          "SC25_Timetable_C_495_E_43_Cl_35_D_7_T_58.normalised.cnf.xz"
+        ],
+        "gbd_family": "school-timetabling",
+        "gbd_hash": "77e655b23c0a50d911c0384ef8fe266d",
+        "isohash": "b864bbfc1e263c0d5a96f9d9468ceb57",
+        "isohash2": "a0650424ce33517e",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=77e655b23c0a50d911c0384ef8fe266d",
+        "proceedings": "empty",
+        "tracks": [
+          "main_2025",
+          "submissions_2025"
+        ],
+        "url": "https://benchmark-database.de/file/77e655b23c0a50d911c0384ef8fe266d"
+      }
+    },
+    {
+      "bytes": 6648,
+      "expected_result": "unsat",
+      "family": "subset-cardinality",
+      "id": "gbd-2d6d26e1c5b4f2763c03697a6d00d3cf",
+      "lineage": "gbd-family:subset-cardinality",
+      "path": "development/2d6d26e1c5b4f2763c03697a6d00d3cf.cnf",
+      "sha256": "4c397e90b59fac8f85093724abb90e3894531426b495c47a569dab80fddc4122",
+      "source": {
+        "archive_bytes": 2360,
+        "archive_sha256": "14d7e8bffa6082711cf72a1f7cf9f9f1531e456464511f79490b6bb7606da1d4",
+        "author": "elffers",
+        "filenames": [
+          "fixedbandwidth-eq-31_shuffled.cnf.xz"
+        ],
+        "gbd_family": "subset-cardinality",
+        "gbd_hash": "2d6d26e1c5b4f2763c03697a6d00d3cf",
+        "isohash": "6a8f6bde0719ca81ca90711f78460e73",
+        "isohash2": "40b76c81f2a28c73",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=2d6d26e1c5b4f2763c03697a6d00d3cf",
+        "proceedings": "empty",
+        "tracks": [
+          "anni_2022",
+          "crafted_2016",
+          "main_2024"
+        ],
+        "url": "https://benchmark-database.de/file/2d6d26e1c5b4f2763c03697a6d00d3cf"
+      }
+    },
+    {
+      "bytes": 133450,
+      "expected_result": "sat",
+      "family": "heule-nol",
+      "id": "gbd-0a27eb7c16c1e69ff4d087d217ac89cb",
+      "lineage": "gbd-family:heule-nol",
+      "path": "development/0a27eb7c16c1e69ff4d087d217ac89cb.cnf",
+      "sha256": "899bc10a4a763ab6f521eed9210802924c93d56ac5df59efff6350c5fb61459a",
+      "source": {
+        "archive_bytes": 19740,
+        "archive_sha256": "960f0bd90daf7eac3dc1da0bfec80b3edc591183bff6bd0df88ba3b8901cbc7a",
+        "author": "heule",
+        "filenames": [
+          "noL-11-0.sanitized.cnf.xz"
+        ],
+        "gbd_family": "heule-nol",
+        "gbd_hash": "0a27eb7c16c1e69ff4d087d217ac89cb",
+        "isohash": "fd47b3ceb5e808016de67e01d1473fbd",
+        "isohash2": "e6762ab03f7fc682",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=0a27eb7c16c1e69ff4d087d217ac89cb",
+        "proceedings": "http://hdl.handle.net/10138/584822",
+        "tracks": [
+          "main_2024",
+          "submissions_2024"
+        ],
+        "url": "https://benchmark-database.de/file/0a27eb7c16c1e69ff4d087d217ac89cb"
+      }
+    },
+    {
+      "bytes": 577233556,
+      "expected_result": "sat",
+      "family": "hypertree-decomposition",
+      "id": "gbd-29b7d5a498eff7a98fcd03a273eaeba3",
+      "lineage": "gbd-family:hypertree-decomposition",
+      "path": "development/29b7d5a498eff7a98fcd03a273eaeba3.cnf",
+      "sha256": "aad693ed895001488bbdf8f5787a13d5ab03b3f3eb69c3f78c3e1322f1e7e915",
+      "source": {
+        "archive_bytes": 25953012,
+        "archive_sha256": "0d4ea2141b8a0b78b55a34675faf9e86ede6dee7d2bd0547954331f622b981ae",
+        "author": "schidler",
+        "filenames": [
+          "Kakuro-easy-132-ext.xml.hg_8.cnf.xz"
+        ],
+        "gbd_family": "hypertree-decomposition",
+        "gbd_hash": "29b7d5a498eff7a98fcd03a273eaeba3",
+        "isohash": "a6c91632fdd2db00e294a25f6dbee927",
+        "isohash2": "742838b491a7ca66",
+        "license": "Not asserted by GBD metadata; obtain from original submitter before redistribution.",
+        "metadata_url": "https://benchmark-database.de/?context=cnf&hash=29b7d5a498eff7a98fcd03a273eaeba3",
+        "proceedings": "http://hdl.handle.net/10138/318754",
+        "tracks": [
+          "anni_2022",
+          "main_2021",
+          "main_2025"
+        ],
+        "url": "https://benchmark-database.de/file/29b7d5a498eff7a98fcd03a273eaeba3"
+      }
+    }
+  ],
+  "kind": "locked_corpus",
+  "schema_version": 1,
+  "selection": {
+    "lineage_warning": "GBD family is a conservative proxy, not independently audited generator lineage. Holdout curators must check aliases and related generators.",
+    "metadata_source": [
+      "https://benchmark-database.de/?context=cnf&track=main_2024",
+      "https://benchmark-database.de/?context=cnf&track=main_2025"
+    ],
+    "rule": "Reserve family hash bucket 0/3; deduplicate hash/isohash/isohash2; exclude metadata-listed main_2026 overlap; round-robin remaining families.",
+    "seed": "20260906",
+    "years": [
+      2024,
+      2025
+    ]
+  },
+  "split": "development"
+}
