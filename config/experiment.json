@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "baseline_ref": "baseline-v1",
+  "baseline_ref": "baseline-v2",
   "editable_paths": ["solver/kissat/src/", "solver/satsuma/src/"],
   "editable_extensions": [".c", ".h", ".cpp", ".hpp", ".cc", ".hh", ".inc"],
   "profiles": {

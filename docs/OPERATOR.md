@@ -4,17 +4,24 @@ This is the operator's procedure, not permission for the optimization agent to
 access a hidden test. The shipped repository is ready for local optimization;
 hidden-corpus curation and official Linux evaluation remain external work.
 
+The current seed contains no task prompt or auto-loaded agent instruction file.
+This removes a duplicated instruction layer, not all contextual influences:
+repository documentation and old prompts in Git history remain accessible.
+Use the same environment and externally supplied prompt for compared agent runs.
+
 ## Before optimization
 
-1. Record the remote `main` commit and `baseline-v1` commit. Preserve a trusted
+1. Record the remote `main` commit and `baseline-v2` commit. Preserve a trusted
    clone and Docker toolchain image on a separate host/account inaccessible to
    the optimization agent. Local Git tags and integrity checks are tamper
    evidence, **not** an immutable security boundary against the same user.
 2. Decide whether the 30-instance starter is the experiment's development set
    or expand the 300-entry catalog first. Expansion is operator setup, not a
-   candidate optimization. Freeze the expanded manifest, corpus, settings, and
-   prompt in a new experiment seed before the candidate sees it. Do not change
-   the seed tag or data under an active run. See `DATASET.md`.
+   candidate optimization. Freeze the expanded manifest, corpus, and settings
+   in a new experiment seed before the candidate sees it. Record the exact task
+   prompt and agent configuration externally with the run, not in the candidate
+   checkout. Do not change the seed tag or data under an active run. See
+   `DATASET.md`.
 3. Preregister test counts, family/lineage disjointness, duplicate exclusions,
    difficulty-selection rules, SAT/UNSAT mix, hardware/compiler/image IDs,
    timeout/memory/file caps, run ordering, repeats, metrics, and feedback budget.

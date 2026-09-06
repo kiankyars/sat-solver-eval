@@ -4,9 +4,8 @@ A ready-to-edit **Satsuma-iter + Kissat** baseline, public competition inputs,
 and a separate certificate-checking evaluator. The goal is to improve a strong
 solver under fixed resource limits, not exploit a weak success signal.
 
-**Open this directory in Codex and paste [PROMPT.md](PROMPT.md).**
-`AGENTS.md` tells the next agent where it may edit and how to measure changes.
-No solver optimization has been performed in this seed.
+Task prompts are supplied separately from the repository. No solver
+optimization has been performed in this seed.
 
 ## Start
 
@@ -30,8 +29,13 @@ tools; Linux needs a C++20-capable compiler. From the repository root:
 Setup builds both variants and the independent checker, downloads/verifies the
 30-instance starter corpus, and creates tiny correctness smoke inputs. It does
 not run an optimization experiment or start any paid compute. Baseline builds
-come from the frozen `baseline-v1` Git tag, even after the candidate is edited.
+come from the frozen `baseline-v2` Git tag, even after the candidate is edited.
 Candidate builds use the working tree. Stale source/binary builds are rejected.
+
+`baseline-v2` removes the checked-in task instructions; its solver, checker,
+build recipes, scoring, resource limits, and development corpus are unchanged
+from `baseline-v1`. Earlier prompts remain in Git history. Existing v1 builds
+need `./sat setup` to record the new seed reference.
 
 Run an inexpensive six-instance end-to-end smoke check:
 
@@ -100,7 +104,7 @@ disqualifies the entire submission. Checking time is recorded separately.
   CNFs are downloaded, not committed or relicensed. Initial acquisition is
   44 MiB compressed / 873 MiB unpacked.
 - Matched build/run metadata, PAR-2 and per-family reports, frozen-file checks,
-  source-only submission archives, and a ready-to-paste agent prompt.
+  and source-only submission archives.
 
 The proposed 100-instance validation and 300-instance final sets are **not yet
 provisioned**. Their curation, lineage review, and post-submission fresh inputs
@@ -110,7 +114,6 @@ establish absence from model pretraining.
 
 ## Experiment documents
 
-- [PROMPT.md](PROMPT.md): exact optimization task.
 - [docs/SOLVER.md](docs/SOLVER.md): source provenance, proof format, adaptations, licenses.
 - [docs/DATASET.md](docs/DATASET.md): acquisition, expansion, and leakage-aware splits.
 - [docs/OPERATOR.md](docs/OPERATOR.md): trusted final evaluation and claim criteria.

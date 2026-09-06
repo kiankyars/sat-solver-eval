@@ -323,7 +323,7 @@ def main(argv: list[str] | None = None) -> int:
             build("candidate", args.backend)
             corpus.fetch(ROOT / "data/manifests/dev.json", ROOT / "data/corpus", ROOT / "data/locked/dev.json", limit=None)
             corpus.make_smoke(ROOT / "data/smoke")
-            print("Ready. Read PROMPT.md; setup did not run a performance experiment.")
+            print("Ready. Setup did not run a performance experiment.")
         elif args.command == "evaluate":
             if args.limit is not None and args.limit < 1:
                 raise ValueError("--limit must be positive")
